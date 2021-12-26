@@ -1,0 +1,190 @@
+
+ body {
+   height: 100vh;
+   padding: 0px;
+   margin: 0px;
+ }
+
+
+ header {
+   height: 122px;
+
+ }
+
+nav{
+  height: 122px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #005fb2;
+
+
+}
+
+ .logo {
+   margin-right: 450px;
+   margin-left: 100px;
+   padding: 0px;
+ }
+
+
+ .btn-login {
+   background-color: #FFAE00;
+   border-radius: 10px;
+   padding: 0px;
+ }
+
+
+ .icons {
+   display: flex;
+   flex-direction: row;
+ }
+
+
+ .icons i {
+   font-size: 20px;
+   margin-left: 10px;
+   margin-right: 5px;
+   color: white;
+ }
+
+ .banner {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+
+
+ .texto-banner {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+   margin-right: 50%;
+   margin-left: 100px;
+ }
+
+ .btn-banner {
+   margin-top: 5%;
+   display: flex;
+   flex-direction: row;
+
+ }
+
+
+ main {
+   background: url(/img/Foto.png) no-repeat;
+   background-size: cover;
+   height: 80vh;
+   color: white;
+
+ }
+
+
+ main div img {
+   height: 780px;
+   width: 1820px;
+   max-width: 100%;
+ }
+
+
+ .quemsomos {
+   margin-left: 250px;
+   display: flex;
+   height: 500px;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+ .texto-quemsomos {
+   margin-right: 100px;
+ }
+
+
+ .video-quemsomos {
+   display: flex;
+   justify-content: center;
+   margin-right: 400px;
+ }
+
+
+ .pedidos {
+   height: 600px;
+   background: #FFAE00;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+
+ .pedidos h2,
+ p, h4 {
+   color: white;
+   margin-top: 50px;
+   margin-left: 20%;
+   margin-right: 20%;
+ }
+ .box-pedidos{
+   display: flex; 
+
+ }
+.box-pedidos img{
+  height: 200px;
+  width: 200px;
+}
+
+ .depoimentos {
+  margin-left: 250px;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.video-depoimentos {
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+}
+.texto-depoimentos {
+  margin-right: 100px;
+}
+
+.cadastro{
+  height: 600px;  
+  background: #FFAE00;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cadastro h2,
+p, h4 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.box-cadastro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 5%;
+}
+.box-cadastro img{
+  width:  250px;
+  height: 200px;
+}
+.cadastro button{
+  border-radius: 20px; 
+  padding: 10;
+  background-color: #005fb2;
+  color: #fff;
+
+}
+footer{
+  background-color: #FFAE00;
+  text-align: center;
+  color: #fff;
+}
